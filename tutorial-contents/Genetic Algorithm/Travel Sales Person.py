@@ -44,8 +44,6 @@ class GA2(object):
         a = random.choice(remeber)
         while a in travel:
             a =random.choice(remeber)
-            if a not in travel:
-                break
         return a
     
     #def select(self, parent):     
